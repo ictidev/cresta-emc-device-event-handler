@@ -17,7 +17,7 @@
 - Avaya EMC XML Server Integration
 - Event Handling for CSTA events
 - Cresta API Integration
-- Auto-Reconnect
+- Auto-Reconnect to EMC XML Server
 - Thread-Safe Data Management
 
 ---
@@ -30,11 +30,12 @@
 
 ## Setup Instructions
 1. Configure `Settings.Default` for XML server and Cresta API.
-2. Build and install as a Windows Service:
+2. Restore Nuget packages
+3. Build and install as a Windows Service:
    ```powershell
    sc create ICTIEMCEventHandlerService binPath= "C:\Path\To\icti-emc-event-handler.exe"
    ```
-3. Start service:
+4. Start service:
    ```powershell
    net start ICTIEMCEventHandlerService
    ```
