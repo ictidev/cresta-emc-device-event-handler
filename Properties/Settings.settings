@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="icti_emc_event_handler.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="XMLServerIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">129.0.0.0</Value>
+    </Setting>
+    <Setting Name="XMLServerPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">29096</Value>
+    </Setting>
+    <Setting Name="LinkName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AVAYA#CM5#CSTA-S#AES63</Value>
+    </Setting>
+    <Setting Name="EnableXMLClientTrace" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="XMLClientTraceFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Logs</Value>
+    </Setting>
+    <Setting Name="VDNList" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0000</Value>
+    </Setting>
+    <Setting Name="SplitSkillList" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0000</Value>
+    </Setting>
+    <Setting Name="CrestaAPIEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api-siprec.us-east-1-prod.cresta.ai/v1/siprec/customers/rcg/profiles/us-east-1/sessionEvent:process</Value>
+    </Setting>
+    <Setting Name="CrestaAPIKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Y3RhcGsucmNnLmluZmluaXQtY3RpLWFwaS1rZXkuNHZnSkZ2NTRaMDE2SG84OVFDMzI0dmdOOWE4MDF4YzQwSFNCUWVFRw==</Value>
+    </Setting>
+    <Setting Name="LogFileSizeLimitInMB" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="LogDailyFileCount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="LogNumberDaysRetention" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
