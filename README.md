@@ -1,7 +1,7 @@
 # Cresta EMC Device Event Handler
 
 ## Overview
-**ICTIEMCEventHandlerService** is a Windows Service designed to handle telephony events using the **Avaya EMC Developer CSTA** framework. It connects to an XML telephony server (TServer) to monitor devices, agents, and queues, and integrates with **Cresta API** for real-time call event reporting and analytics.
+**Cresta EMC Device Event Handler** is a Windows Service designed to handle telephony events using the **Avaya EMC Developer CSTA** framework. It connects to an XML telephony server (TServer) to monitor devices, agents, and queues, and integrates with **Cresta API** for real-time call event reporting and analytics.
 
 ---
 
